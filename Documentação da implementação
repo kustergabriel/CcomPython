@@ -2,3 +2,7 @@ Optamos por desenvolver uma calculadora utilizando a linguagem C como base para 
 
 Para a interface gráfica, escolhemos Python, devido à sua facilidade de integração com bibliotecas que permitem criar interfaces bonitas e intuitivas em poucos minutos. 
 Utilizamos a biblioteca Tkinter, que possibilita criar botões, caixas de texto e diversos outros elementos de forma simples e eficiente, proporcionando uma experiência amigável ao usuário.
+
+Para permitir que Python e C “conversem” no projeto, utilizamos o método de DLLs. Esse método consiste em compilar o código em C como uma biblioteca dinâmica, que depois pode ser carregada e utilizada por programas Python.
+No código C, adicionamos a diretiva EXPORT para indicar que as funções devem ser exportadas para uso externo. No Python, utilizamos a biblioteca ctypes para carregar a DLL e definimos os tipos de argumentos e o tipo de retorno das funções para que Python e C 
+consigam interpretar os dados corretamente.
