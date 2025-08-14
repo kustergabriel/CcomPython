@@ -1,0 +1,2 @@
+Optamos por fazer uma calculadora utilizando a linguagem C como principal linguagem para manipular os números, escolhemos por 4 tipos de calculos, fatorial, mmc, se um numero é primo e potencia. 
+Para a interface grafica, escolhemos utilizar Python pela facilidade de utilizar bibliotecas quem em poucos minutos temos uma interface bonita e intuitiva, optamos pela TKINTER que te permite criar botões, caixas de texto, entre outros elementos de formas simples.
