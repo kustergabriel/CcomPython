@@ -33,7 +33,7 @@ Abra o terminal na pasta do projeto e execute o comando:
 **No Windows (com MinGW):**
 
 ```bash
-gcc -shared -o calculadora.dll -fPIC calculadora.c
+mingw32-make
 ```
 
 Após a compilação, um arquivo chamado `calculadora.dll` (Windows) será criado na mesma pasta.
@@ -45,7 +45,7 @@ Após a compilação, um arquivo chamado `calculadora.dll` (Windows) será criad
 Com a biblioteca compilada, basta executar o script Python.
 
 ```bash
-python3 calculadora.py
+mingw32-make run
 ```
 
 Isso abrirá uma janela da calculadora onde você pode inserir números e usar os botões para chamar as funções.
