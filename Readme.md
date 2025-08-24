@@ -1,3 +1,5 @@
+### Trabalho desenvolvido por: Charllynson Carvalho, Gabriel Kuster e Luana Montilha
+
 ### Calculadora com integração C + Python
 
 O programa principal, em Python, fornece a interface do usuário, enquanto as funções de cálculo mais intensivas (fatorial, potência, MMC e verificação de número primo) são implementadas em uma biblioteca C e chamadas dinamicamente.
